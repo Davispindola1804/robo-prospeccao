@@ -1,0 +1,10 @@
+# Credenciais
+.env
+
+# Ambiente virtual
+.venv/
+
+# Planilhas com dados de contatos (dados pessoais)
+*.xlsx
+
+__pycache__/
