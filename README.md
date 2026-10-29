@@ -16,6 +16,22 @@ Scripts em Python que automatizam a busca de contatos de empresas para prospecç
 3. Trata erros e tempos de espera (`WebDriverWait`) para rodar listas longas sem intervenção.
 4. Salva o resultado em `saida_telefones_por_nome.xlsx`.
 
+## Resultados
+Em uma rodada real de prospecção (sócios de startups aprovadas no Edital FAPESQ-PB nº 09/2026):
+
+| Sócios pesquisados | Contatos encontrados | Taxa de acerto | Números de celular |
+|---|---|---|---|
+| 59 | 40 | 68% | 97 |
+
+## Exemplo de entrada e saída
+Os arquivos [`exemplo_entrada.csv`](exemplo_entrada.csv) e [`exemplo_saida.csv`](exemplo_saida.csv) mostram o formato usado, com **dados fictícios**. As planilhas reais não são publicadas por conterem dados pessoais.
+
+| Nome | Estado | Telefone |
+|---|---|---|
+| Ana Beatriz Fictícia | PB | (83) 90000-0001, (83) 90000-0002 |
+| Carlos Eduardo Exemplo | PB | (83) 90000-0003 |
+| Mariana Teste Silva | PE | Não encontrado |
+
 ## Tecnologias
 Python · Selenium · pandas · openpyxl · python-dotenv
 
